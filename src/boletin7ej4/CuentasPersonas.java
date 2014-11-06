@@ -34,11 +34,12 @@ public void comparar(CuentasPersonas p1,CuentasPersonas p2){
     
     if(p1.peso > p2.peso){
         System.out.println("El peso de "+p1.nombre+" es superior.");
+        
     } else {
         System.out.println("El peso de "+p2.nombre+" es superior.");
     }
+    System.out.println("La diferencia de peso entre ambos es de "+Math.abs(p1.peso-p2.peso)+" kg.");
 }
-
 
 
 
